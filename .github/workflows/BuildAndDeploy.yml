@@ -27,6 +27,10 @@ jobs:
           yarn install
           yarn run build
 
+      - name: Update Asset URLs
+        run: |
+          find ./build -type f -exec sed -i 's|https://zihuv.github.io|https://raw.githubusercontent.com/zihuv/Markdown2Html/gh-pages|g' {} \;
+
       - name: Deploy 🚀
         uses: peaceiris/actions-gh-pages@v3
         with:
