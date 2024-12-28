@@ -6,7 +6,7 @@
   "private": false,
   "main": "lib/Lib.js",
   "module": "lib/Lib.js",
-  "homepage": "https://zihuv.github.io/Markdown2Html/",
+  "homepage": "https://zihuv.github.io/Markdown2Html",
   "license": "GPL-3.0",
   "typings": "./lib/index.d.ts",
   "repository": {
